@@ -6,6 +6,5 @@ jobs:
     steps:
       - name: Checkout code
         run: |
-        echo "Line1"
-        echo "Line2"
-        echo "Line3"
+          echo "Line1"
+          echo "Line2"
