@@ -1,8 +1,15 @@
-name : practice
-on : workflow_dispatch
+name: Modify GitHub Actions workflow for practice
+
+on:
+  workflow_dispatch:
+
 jobs:
-  hello:
-    runs-on : ubuntu-latest
+  practice:
+    runs-on: ubuntu-latest
+
     steps:
-    -name : Practice
-    run : echo "Hi, I am practice workflow"
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run practice
+        run: echo "GitHub Actions practice"
