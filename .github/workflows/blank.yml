@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        run: 
+        run: |
         echo "Line1"
         echo "Line2"
         echo "Line3"
